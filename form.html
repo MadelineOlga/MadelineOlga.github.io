@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+   <div id="wrapper">
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="challenge.html">Challenge</a></li>
+            <li><a href="#">Recipe</a></li>
+            <li><a href="form.html">forms</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Reserve Your Room</h1>
+        <h2>Our Reservation Policies</h2>
+
+    </header>
+
+    <section class="policies">
+        <ul>
+            <li>Check-in time after 3:00pm on</li>
+            <li>Check-out time by 11:00am or charges are incurred</li>
+            <li>Breakfast and afternoon tea/snacks included in cost</li>
+            <li>Proof of COVID-19 Vaccination required. Upload image(s) below</li>
+            <li>50% deposit required at booking</li>
+            <li>Cancellations less than 72 hours ahead of check-in forfeit 50% of deposit</li>
+        </ul>
+    </section>
+
+    <section class="reserve">
+        <form method="post" name="reservation" data-netlify="true">
+
+            <div>
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" placeholder="firstName" required>
+            </div>
+
+            <div>
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" placeholder="lastName" required>
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="email" required>
+            </div>
+
+            <div>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="phone" required>
+            </div>
+
+            <div>
+                <label for="checkin">Check-in Date:</label>
+                <input type="date" id="checkin" name="checkin" required>
+            </div>
+
+            <div>
+                <label for="checkout">Check-out Date:</label>
+                <input type="date" id="checkout" name="checkout" required>
+            </div>
+
+            <div> 
+                <label for="Number of guests ">Number of guests :</label>
+                <input type="number" id="guests" name="guests" min="1" max="4" required>
+            </div>
+
+            <div>
+                <label for="view">Ocean View:</label>
+                <input type="radio" name="view" id="yes" value="yes">
+                <label for="view">Yes</label>
+
+                <input type="radio" name="view" id="no" value="no">
+                <label for="view">No</label>
+            </div>
+
+            <div>
+                <label for="Agree to terms">Agree to terms:</label>
+                <input type="checkbox" id="agree" name="agree" required>
+            </div>
+
+            <div>
+                <label for="Password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <div>
+                <button type="submit">Submit Reservation</button>
+                <button type="reset">Clear Form</button>
+            </div>
+
+            <footer>
+                <p>&copy; 2023 Hilton Inn. All rights reserved.</p>
+            </footer>
+
+        </form>
+    </section>
+       
+
+   </div>
+</body>
+</html>
