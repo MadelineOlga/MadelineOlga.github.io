@@ -28,7 +28,7 @@ text-align: center;
 
 
 h1 {
-font-family: sans-serif;
+font: 1em sans-serif;
 font-size: 1.5rem;
 color: rgb(0, 0, 0);
 text-align: left;
@@ -38,9 +38,10 @@ text-decoration: none;
 
 h2 {
 font-family: Georgia, 'Times New Roman', Times, serif;
-font-size: 1.5rem;
+font-size: 1.9rem;
 color: rgb(13, 1, 1);
 margin: 1rem 0;
+margin-top: 5rem;
 text-align: left;
 }
 
@@ -48,8 +49,14 @@ h3 {
 font-family: Georgia, 'Times New Roman', Times, serif;
 font-size: 2.5rem;
 color: rgb(12, 0, 0);
-margin: 1rem 0;
+margin: 3rem 0;
 }
+
+div {
+margin-bottom: .5rem;
+text-align: center;
+font: 1em sans-serif;
+}       
 
 ul {
 list-style-type: circle;
