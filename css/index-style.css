@@ -50,11 +50,11 @@ h1 {
 
 h2 {
     font-size: 1.78rem;
-    color: #000000;
+    color: #ffffff;
     text-align: center;
     padding: 2px 16px; 
-    background-color: rgba(255, 255, 255, 0.598);
-    border-radius: 8px;
+    background-color: rgb(49, 38, 249);
+    border-radius: 88px;
     margin-right: 380px; 
     margin-left: 380px;
 }
@@ -67,9 +67,8 @@ h2::after {
 h3 {
     font-size: 2.25rem;
     text-align: center;
-    color: #000;
+    color: #000000;
     padding: 2px 16px; 
-    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 8px;
     margin-right: 99px; 
     margin-left: 99px;
@@ -94,10 +93,10 @@ h5 {
     font-family: 'Times New Roman', Times, serif;
     background-color: rgb(255, 255, 255);
     border-radius: px;
-    border: px solid rgb(255, 255, 255);
-    margin-right: 9
-    margin-left: 9  
+    border: 90px solid rgb(255, 255, 255);
     display: inline-block;
+    margin-right: 88px;
+    margin-left: 88px;
     align-items: center;
 }
 
@@ -131,7 +130,7 @@ header p {
     align-items: right;
     color: #000;
     font-size: 80%;
-    background-color: rgb(86, 35, 35);
+    background-color: rgb(249, 248, 248);
     border-radius: 8px;
     margin-right: 8px; 
     display: inline-block;
@@ -186,3 +185,10 @@ nav a {
     margin-right: 8px; 
 }
 
+footer p {
+    font-size: 0.9rem;
+    color: #000;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
