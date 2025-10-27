@@ -8,7 +8,7 @@ box-sizing: inherit;
 }
 
 body {
-background-color: #010000; /* fallback color */
+background-color: #f9f6f6; /* fallback color */
 background-image: url(/img/hotel.jpg);
 background-position: top;
 background-size: cover;
@@ -33,15 +33,15 @@ font-size: 1.5rem;
 color: rgb(0, 0, 0);
 text-align: left;
 margin-bottom: .4rem;
-text-decoration: underline;
+text-decoration: none;
 }   
 
 h2 {
 font-family: Georgia, 'Times New Roman', Times, serif;
-font-size: 1.rem;
+font-size: 1.5rem;
 color: rgb(13, 1, 1);
 margin: 1rem 0;
-text-align: center;
+text-align: left;
 }
 
 h3 {
@@ -81,23 +81,51 @@ margin-bottom: 2rem;
 form {
 padding-left: 3rem;
 }
-<div class="radio">
-<span>Ocean View (add’l cost)</span>
-<label for="ocean-view">Yes</label>
-<input type="radio" id="ocean-view" name="ocean-view" value="yes">
-<label for="ocean-view-no">No</label>
-<input type="radio" id="ocean-view-no" name="ocean-view" value="no">
+
+.radio {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.span {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.label for [name="ocean-view"][value="yes"]
+/* radio inputs */
+input[type="radio"] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+/* optional: target specific radios */
+input[name="ocean-view"][value="yes"],
+input#ocean-view {
+    /* custom styles for the "yes" radio */
+}
+
+/* label styling by for attribute */
+label[for="ocean-view"],
+label[for="ocean-view-no"] {
+    display: inline-block;
+    margin-right: 0.6rem;
+    text-transform: uppercase;
+}
 
 label,
 span {
-display: inline-block;
-width: 250px;
-margin-right: 20px; /* to add space between label and input */
+min-width: 120px; /* (0, 0, 1) */
+margin-right: 2px; /* to add space between label and input */
 text-align: right;
+text-transform: uppercase;
 }
 
-radio label {
-width: 12px
+.radio label {
+width: 12px;
 }
 
 span {
@@ -112,16 +140,22 @@ input[type=date],
 input[type=number],
 input[type=file],
 input[type=checkbox],
-input[type=password] { (no comma on the last one)
-padding: 1px;
-margin: 8px 0; (add space to top-bottom)
+input[type=password] { 
+padding: 8px;
+margin: 8px 0;
 border: none;
-border-color: 
+border: 1px solid rgba(0, 0, 0, 0.12);
 border-radius: 7px
 }
 
 textarea {
-border-radius: 
+border-radius: 7px;
+border: 1px solid rgba(0, 0, 0, 0.12);
+padding: 1px;
+margin: 8px 0;
+width: 300px;
+height: 100px;
+resize: vertical;
 }
 
 input[type=checkbox],
@@ -134,9 +168,9 @@ cursor: pointer;
 button {
 background-color: rgb(252, 253, 252);
 color: rgb(0, 0, 0);
-padding: .5rem; 
+padding: .8rem; 
 margin-bottom: 1rem;
-border-radius: 7px;
+border-radius: 8px;
 text-transform: uppercase;
 font-size: .75rem;
 letter-spacing: 1px;
