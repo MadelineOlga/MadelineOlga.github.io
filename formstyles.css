@@ -8,7 +8,7 @@ box-sizing: inherit;
 }
 
 body {
-background-color: #d1d3d1; /* fallback color */
+background-color: #010000; /* fallback color */
 background-image: url(/img/hotel.jpg);
 background-position: top;
 background-size: cover;
@@ -19,39 +19,42 @@ background-attachment: fixed;
 #wrapper {
 width: 60%;
 background-color: rgba(255, 255, 255, 0.5); /* pick a color that contrasts with your image */
-color: white; /* use white */
+color: rgb(2, 0, 0); /* use white */
 padding: 2rem; /* You decide on your transparency. Your text color */
 border-radius: 2rem;
 margin: 2rem auto;
 text-align: center;
 }
 
+
 h1 {
-font-family: 'Times New Roman', Times, serif;
+font-family: sans-serif;
 font-size: 1.5rem;
-color: rgb(252, 252, 251);   
-margin: 1rem 0;
-text-align: start;
+color: rgb(0, 0, 0);
+text-align: left;
+margin-bottom: .4rem;
+text-decoration: underline;
 }   
 
 h2 {
-font-family: 'Times New Roman', Times, serif;
-font-size: 1.5rem;
-color: rgb(251, 251, 250);
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 1.rem;
+color: rgb(13, 1, 1);
 margin: 1rem 0;
+text-align: center;
 }
 
 h3 {
-font-family: 'Times New Roman', Times, serif;
-font-size: 1.5rem;
-color: rgb(250, 249, 249);
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 2.5rem;
+color: rgb(12, 0, 0);
 margin: 1rem 0;
 }
 
 ul {
 list-style-type: circle;
 padding-left: 2rem;
-text-align: left;
+text-align: center;
 }   
 
 nav {
@@ -61,6 +64,7 @@ margin-bottom: 3.5rem;
 
 nav li {
 display: inline-block;
+align-items: center;
 }   
 
 nav a {
@@ -110,14 +114,15 @@ input[type=number],
 input[type=file],
 input[type=checkbox],
 input[type=password] { (no comma on the last one)
-padding: 10px;
+padding: 1px;
 margin: 8px 0; (add space to top-bottom)
 border: none;
-border-radius: 8px
+border-color: 
+border-radius: 7px
 }
 
 textarea {
-broder-radius: 8px;
+border-radius: 
 }
 
 input[type=checkbox],
@@ -128,16 +133,17 @@ cursor: pointer;
 }   
 
 button {
-background-color: white;
-color: rgb(41, 116, 202); my text is blue to go with blue – yours can be different.
-padding: .5rem; buttons are small to begin with – need small amount of padding
+background-color: rgb(252, 253, 252);
+color: rgb(0, 0, 0);
+padding: .5rem; 
 margin-bottom: 1rem;
-border-radius: 8px;
+border-radius: 7px;
 text-transform: uppercase;
 font-size: .75rem;
 letter-spacing: 1px;
 font-weight: 600;
 cursor: pointer;
+border: none;
 }
 
 button[type=submit] {
