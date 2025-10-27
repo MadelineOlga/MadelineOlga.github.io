@@ -31,27 +31,30 @@ h5 {
     color: rgb(67, 92, 19);
     font-family: Georgia,
     'Times New Roman', Times, serif;
-    text-decoration: underline dotted rgba(238, 215, 4, 0.8);
+    text-decoration: underline dotted rgba(255, 255, 255, 0.655);
     text-underline-offset: 12px;
 }
 
 h1 {
     font-size: 3.25rem;
+    color: #000;
     text-align: center;
     padding: 2px 16px; 
-    background-color: rgb(255, 255, 255);
+    background-color:rgba(255, 255, 255, 0.693);
     border-radius: 8px;
-    margin-right: 99px; 
-    margin-left: 99px;
+    border: 77px solid rgba(255, 255, 255, 0);
+    margin-right: 9px; 
+    margin-left: 9px;
 }
 
 
 h2 {
     font-size: 1.78rem;
+    color: #000000;
     text-align: center;
     padding: 2px 16px; 
     background-color: rgb(255, 255, 255);
-    border-radius: 8px;
+    border-radius: px;
     margin-right: 380px; 
     margin-left: 380px;
 }
@@ -64,21 +67,23 @@ h2::after {
 h3 {
     font-size: 2.25rem;
     text-align: center;
+    color: #000;
     padding: 2px 16px; 
     background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 8px;
+    border-radius: px;
     margin-right: 99px; 
     margin-left: 99px;
 }
 
 h4 {
     font-size: 1.5rem;
+    color: #000;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     padding: 12px 16px; 
     background-color: rgb(255, 255, 255);
    border: 8px solid rgb(255, 255, 255);
-    border-radius: 8px;
+    border-radius: px;
     margin-right: 99px; 
     margin-left: 99px;
     display: inline-block;
@@ -88,8 +93,9 @@ h4 {
 
 h5 {
     font-size: 1.2rem;
+    color: #000;
     font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(106, 55, 55);
+    background-color: rgb(255, 255, 255);
     border-radius: 8px;
     margin-right: 8px; 
     display: inline-block;
@@ -98,6 +104,7 @@ h5 {
 
 h6 {
     font-size: 1.2rem;
+    color: #000;
     font-family: 'Times New Roman', Times, serif;
     background-color: rgb(255, 255, 255);
     border-radius: 2px;
@@ -111,6 +118,7 @@ h6 {
 
 nav, li {
     font-size: 1.3rem;
+    color: #000;
     font-family: 'Times New Roman', Times, serif ;
     font-weight: 600;
     letter-spacing: 1px;
@@ -121,8 +129,9 @@ nav, li {
 
 header p {
     align-items: right;
+    color: #000;
     font-size: 80%;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgb(86, 35, 35);
     border-radius: 8px;
     margin-right: 8px; 
     display: inline-block;
@@ -141,6 +150,7 @@ header p {
 .assignments a:link,
 .assignments a:visited {
     line-height: 1.6;
+    color: #000;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 8px;
     margin-right: 8px; 
@@ -150,7 +160,7 @@ header p {
 
 .assignments a:hover,
 .assignments a:active { 
-    text-decoration: underline double rgba(49, 97, 170, 0.5);
+    text-decoration: none
     text-underline-offset: 4px;
 }
 
@@ -166,7 +176,9 @@ align-items: center;
 
 nav a {
     padding: 12px 16px; 
+    color: #000;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 8px;
     margin-right: 8px; 
 }
+
