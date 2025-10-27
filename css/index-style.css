@@ -53,8 +53,8 @@ h2 {
     color: #000000;
     text-align: center;
     padding: 2px 16px; 
-    background-color: rgb(255, 255, 255);
-    border-radius: px;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 8px;
     margin-right: 380px; 
     margin-left: 380px;
 }
@@ -70,25 +70,22 @@ h3 {
     color: #000;
     padding: 2px 16px; 
     background-color: rgba(255, 255, 255, 0.5);
-    border-radius: px;
+    border-radius: 8px;
     margin-right: 99px; 
     margin-left: 99px;
 }
 
 h4 {
-    font-size: 1.5rem;
-    color: #000;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 3.25rem;
+    color: #000;
     text-align: center;
-    padding: 12px 16px; 
-    background-color: rgb(255, 255, 255);
-   border: 8px solid rgb(255, 255, 255);
-    border-radius: px;
-    margin-right: 99px; 
-    margin-left: 99px;
-    display: inline-block;
-    align-items: center;
-}
+    padding: 2px 16px; 
+    background-color:rgba(255, 255, 255, 0.693);
+    border-radius: 8px;
+    border: 7px solid rgba(255, 255, 255, 0);
+    margin-right: 9px; 
+    margin-left: 9px;
 }
 
 h5 {
@@ -96,8 +93,10 @@ h5 {
     color: #000;
     font-family: 'Times New Roman', Times, serif;
     background-color: rgb(255, 255, 255);
-    border-radius: 8px;
-    margin-right: 8px; 
+    border-radius: px;
+    border: px solid rgb(255, 255, 255);
+    margin-right: 9
+    margin-left: 9  
     display: inline-block;
     align-items: center;
 }
@@ -114,6 +113,7 @@ h6 {
     display: inline-block;
     align-items: center;
 }
+
 
 
 nav, li {
@@ -151,17 +151,20 @@ header p {
 .assignments a:visited {
     line-height: 1.6;
     color: #000;
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 8px;
+    border-radius: px;
     margin-right: 8px; 
+    border: px solid rgba(0, 0, 0, 0.2);
     display: inline-block;
     align-items: center;
+    text-decoration: underline;
+    
 }
 
 .assignments a:hover,
 .assignments a:active { 
     text-decoration: none
     text-underline-offset: 4px;
+    
 }
 
 nav {
@@ -172,6 +175,7 @@ margin-bottom: 3.5rem;
 nav li {
 display: inline-block;
 align-items: center;
+
 }   
 
 nav a {
