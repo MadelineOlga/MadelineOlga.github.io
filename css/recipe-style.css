@@ -1,2 +1,16 @@
-font-family: 'Croissant One', cursive;
-font-family: 'Lato', sans-serif;
+/* 
+    font-family: 'Croissant One', cursive;
+    font-family: 'Lato', sans-serif; 
+*/
+
+html {
+box-sizing: border-box;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 1.25rem;
+}
+
+* ,
+::before,
+::after {
+box-sizing: inherit;
+}
