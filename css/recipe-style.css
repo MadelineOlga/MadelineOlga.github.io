@@ -20,8 +20,14 @@ box-sizing: inherit;
 
 nav {
 background-color: #C98226;
+text-align: center;
 }
 
 nav li {
     display: inline;
+}
+
+nav a {
+    padding: 20px;
+    display: inline-block;
 }
