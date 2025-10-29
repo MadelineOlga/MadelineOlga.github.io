@@ -105,21 +105,24 @@ h4 {
 h5 {
    font-size: 1.2rem;
     color: #000;
-    font: 1em sans-serif;
+    font: 1em 'Times New Roman', Times, serif ;
     background-color: rgb(255, 255, 255);
-    border-radius: 2px;
-
-    border: 88px solid rgb(255, 255, 255);
-    margin-right: 888px; 
+    border-radius: px;
+    border:78px solid rgb(255, 255, 255);
+    border-right: x solid rgb(255, 255, 255);
+    margin-right: 88px; 
     margin-left: 88px;
-    display: inline-block;
-    align-items: center;
+==
+display: inline-block;
+color:
+•white;
+=
 }
 
 h6 {
     font-size: 1.2rem;
     color: #000;
-    font: 1em sans-serif;
+    font: 1em 'Times New Roman', Times, serif ;
     background-color: rgb(255, 255, 255);
     border-radius: 2px;
     border: 88px solid rgb(255, 255, 255);
@@ -127,6 +130,7 @@ h6 {
     margin-left: 88px;
     display: inline-block;
     align-items: center;
+    
 }
 
 
@@ -190,15 +194,16 @@ margin-bottom: 3.5rem;
 nav li {
 display: inline-block;
 align-items: center;
+padding: 12px 16px;
 
 
 }   
 
 nav a {
-    font: 1em sans-serif;
+    font: 1em 'Times New Roman', Times, serif ;
     color: rgb(0, 0, 0);
     text-decoration: none;
-    padding: 12px 16px;
+    padding:= 12px 16px;
 }
 
 footer p {
