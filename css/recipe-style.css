@@ -61,7 +61,7 @@ h3 {
 }
 
 h1{
-    font-size: 3rem;
+    font-size: rem;
     margin: 6% 0; 
     text-align: center;
     text-shadow: 3px 5px 3px #ccc
@@ -77,4 +77,76 @@ img{
     shape-outside: circle(50%);
 }
 
+header h2{
+    margin-top: 5%;
+}
 
+.rate {
+    clear: both;
+    margin-top: 6%;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.emoji::after{
+     content: "\1f370";
+}
+
+
+.details,
+.ingredients,
+.instructions,
+.nutrition {
+    width: 40%;
+    float: left;
+    margin-right: 0%;
+}
+
+.details,
+.instructions{
+    margin-right: 17%;
+    margin-left: 1%;
+}
+
+blockquote {
+    text-align: center;
+    clear: both;
+    width: 300px;
+    height: 280px;
+    border-radius: 50%;
+    background-position: right;
+    outline: dotted 6px #c98226;
+    background-color: #C98226;
+    outline-offset: 10px;
+    margin: 49px 0;
+    padding: 78px 16p 0 20px
+}
+
+
+footer {
+    background-color: #C98226;
+    color: white;
+    padding: 2% 1;
+    padding-block: calc();
+    margin-top: 10px;
+    margin-left: 0%;
+    width: 999;
+    margin-right: 0%;
+    align: left
+    }
+
+footer a {
+    display: block;
+    text-align:
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.colI,
+.coL2,
+.co13 {
+    display: block;
+    float: left;
+    width: 33%;
+}
