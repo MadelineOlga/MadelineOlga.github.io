@@ -1,0 +1,152 @@
+
+/* 
+    font-family: 'Croissant One', cursive;
+    font-family: 'Lato', sans-serif; 
+*/
+
+html {
+box-sizing: border-box;
+font-family: 'Lato', sans-serif; 
+font-family: 'Croissant One', cursive;
+font-size: 1.2rem;
+line-height: 125%;
+color: #50504f;
+}
+
+*,
+::before,
+::after {
+box-sizing: inherit;
+}
+
+nav {
+background-color: #C98226;
+text-align: center;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px
+}
+
+nav a:link,
+nav a:visited {
+text-decoration: none;
+}
+
+nav a:hover,
+nav a:active {
+background-color:
+•#f3b96c;
+color: •#50504f;
+text-decoration: underline;
+}
+
+main {
+    width: 80%;
+margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Croissant One', cursive
+}
+
+h1{
+    font-size: rem;
+    margin: 6% 0; 
+    text-align: center;
+    text-shadow: 3px 5px 3px #ccc
+}
+
+img{
+    float: left;
+    max-width: 30%;
+    margin-left: 10%;
+    margin-right: 18%;
+    border-radius: 50%;
+    box-shadow: 5px 5px 3px #ccc;
+    shape-outside: circle(50%);
+}
+
+header h2{
+    margin-top: 5%;
+}
+
+.rate {
+    clear: both;
+    margin-top: 6%;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.emoji::after{
+     content: "\1f370";
+}
+
+
+.details,
+.ingredients,
+.instructions,
+.nutrition {
+    width: 40%;
+    float: left;
+    margin-right: 0%;
+}
+
+.details,
+.instructions{
+    margin-right: 17%;
+    margin-left: 1%;
+}
+
+blockquote {
+    text-align: center;
+    clear: both;
+    width: 300px;
+    height: 280px;
+    border-radius: 50%;
+    background-position: right;
+    outline: dotted 6px #c98226;
+    background-color: #C98226;
+    outline-offset: 10px;
+    margin: 49px 0;
+    padding: 78px 16p 0 20px
+}
+
+
+footer {
+    background-color: #C98226;
+    color: white;
+    padding: 2% 1;
+    padding-block: calc();
+    margin-top: 10px;
+    margin-left: 0%;
+    width: 999;
+    margin-right: 0%;
+    align: left
+    }
+
+footer a {
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.colI,
+.coL2,
+.co13 {
+    display: block;
+    float: left;
+    width: 33%;
+}
