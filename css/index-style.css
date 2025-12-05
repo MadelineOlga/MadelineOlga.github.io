@@ -64,7 +64,12 @@ h1 {
     border: 77px solid rgba(255, 255, 255, 0);
     margin-right: 9px; 
     margin-left: 9px;
-}
+    background-image: linear-gradient(to right, #ff0000, #0000ff); /* Example: red to blue gradient */
+    background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    }
+    
 
 
 h2 {
@@ -95,6 +100,10 @@ h3 {
     border-radius: 8px;
     margin-right: 99px; 
     margin-left: 99px;
+    background-image: linear-gradient(to right, #ff0000, #0000ff); /* Example: red to blue gradient */
+    background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 
 h4 {
@@ -108,6 +117,10 @@ h4 {
     border: 7px solid rgba(255, 255, 255, 0);
     margin-right: 9px; 
     margin-left: 9px;
+    background-image: linear-gradient(to right, #ff0000, #0000ff); /* Example: red to blue gradient */
+    background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 
 h5 {
