@@ -19,7 +19,7 @@ nav {
 
 nav ul {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     list-style-type: none;
     margin: 9px;
     padding: 20px;
