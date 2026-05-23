@@ -169,13 +169,48 @@ h5 {
     margin-top: 20px;
 }
 
+h2:link,
+h2:visited {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+h2:hover,
+h2:active {
+    color: #635e5e;
+    text-decoration: none;
+}
 h3:link, 
 h3:visited {
-    
+    color: rgb(0, 0, 0);
+    text-decoration: none;
 }
 h3:hover,
 h3:active {
-    
+    color: #635e5e;
+    text-decoration: none;
+}
+
+h4:link, 
+h4:visited {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+h4:hover,
+h4:active {
+    color: #635e5e;
+    text-decoration: none;
+}
+
+h5:link, 
+h5:visited {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+h5:hover,
+h5:active {
+    color: #635e5e;
+    text-decoration: none;
 }
 
 img {
