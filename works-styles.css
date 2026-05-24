@@ -50,6 +50,7 @@ nav a:link,
 nav a:visited {
     color:#000000;
     text-decoration: none;
+    user-select: none;
 }
 
 nav a:hover,
@@ -98,7 +99,6 @@ h1 {
     line-height: 10.4rem;
     margin-bottom: 0rem;
     margin-top: 10rem;
-    
 }
 
 h2 {
@@ -110,12 +110,11 @@ h2 {
     line-height: 1.4em;
     letter-spacing: .1px;
     word-spacing: 0em;
-    color: rgb(0, 0, 0);
     margin: 20px 100px 20px 100px;
     position: 266px;
     margin-right: 680px;
     margin-left: 330px;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 h3 {
@@ -127,13 +126,14 @@ h3 {
     line-height: 1.4em;
     letter-spacing: .1px;
     word-spacing: 0em;
-    color: rgb(0, 0, 0);
     margin: 20px 100px 20px 100px;
     position: 266px;
     margin-right: 680px;
     margin-left: 330px;
     margin-top: 20px;
 }
+
+
 
 h4 {
     text-align: left;
@@ -144,7 +144,6 @@ h4 {
     line-height: 1.4em;
     letter-spacing: .1px;
     word-spacing: 0em;
-    color: rgb(0, 0, 0);
     margin: 20px 100px 20px 100px;
     position: 266px;
     margin-right: 680px;
@@ -161,7 +160,6 @@ h5 {
     line-height: 1.4em;
     letter-spacing: .1px;
     word-spacing: 0em;
-    color: rgb(0, 0, 0);
     margin: 20px 100px 20px 100px;
     position: 266px;
     margin-right: 680px;
@@ -169,49 +167,32 @@ h5 {
     margin-top: 20px;
 }
 
-h2:link,
-h2:visited {
-    color: rgb(0, 0, 0);
+h2 a:link,
+h3 a:link,
+h4 a:link,
+h5 a:link,
+h2 a:visited,
+h3 a:visited,
+h4 a:visited,
+h5 a:visited
+{
+    color: #000000;
     text-decoration: none;
 }
 
-h2:hover,
-h2:active {
-    color: #635e5e;
+    h2:hover,
+    h3:hover,
+    h4:hover,
+    h5:hover,
+    h2:active,
+    h3:active,
+    h4:active,
+    h5:active
+    {
+    color: #ff0000;
     text-decoration: none;
-}
-h3:link, 
-h3:visited {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-}
-h3:hover,
-h3:active {
-    color: #635e5e;
-    text-decoration: none;
-}
-
-h4:link, 
-h4:visited {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-}
-h4:hover,
-h4:active {
-    color: #635e5e;
-    text-decoration: none;
-}
-
-h5:link, 
-h5:visited {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-}
-h5:hover,
-h5:active {
-    color: #635e5e;
-    text-decoration: none;
-}
+    animation: infinite;
+    }
 
 img {
      width: 100%;
