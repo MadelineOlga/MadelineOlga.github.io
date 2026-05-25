@@ -15,6 +15,8 @@ nav {
     padding: .5px;
     width: 100%;
     text-align: center;
+     background-image: url("img/rosetea [Recovered] copy.png");
+     background-size: cover;
 }
 
 nav ul {
@@ -54,7 +56,7 @@ nav a:visited {
 
 nav a:hover,
 nav a:active {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
     text-decoration: none;
     color:#635e5e;
 }
@@ -65,6 +67,8 @@ img {
      object-fit: cover;
      display: block;
      size: cover;
+     image-rendering: auto;
+     image-resolution: 300dpi;
 
 }
 
@@ -77,12 +81,13 @@ img {
     margin: center;
     grid-column-gap: 70px; 
     grid-row-gap: 0px;
-    grid-row: layout: auto;
     align-items: flex-start;
     align-items: center;
     justify-items: center;
     margin: 10px;
     margin-left: 500px;
+    margin-bottom: -300px;
+
 }
 
 .div1 { 
@@ -93,6 +98,29 @@ img {
     border-radius: 8px;
     padding: 10px;
     align-self:center;
+}
+
+h1 {
+    box-sizing: border-box;
+    font: 'Poppins', sans-serif, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    background-image: url("img/rosetea [Recovered] copy.png");
+    font-size: 45px;
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255); /* use white */
+    padding: 100px; /* You decide on your transparency. Your text color */
+    border-radius: 0px;
+    width: 85%;
+    margin:auto;
+    text-align: center;
+    background-attachment:inherit;
+    margin-top: -10px;
+    margin: 0 auto 3px;
+    padding: .px;
+    width: 100%;
+
 }
 
 footer {
