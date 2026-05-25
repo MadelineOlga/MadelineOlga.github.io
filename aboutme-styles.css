@@ -12,12 +12,11 @@ html {
 }
 
 nav {
-    background-color: rgba(75, 109, 58, 0);
+    background-color: rgb(215, 215, 215);
     margin: 0 auto 3px;
     padding: .5px;
     width: 100%;
     text-align: center;
-     background-image: url("img/rosetea [Recovered] copy.png");
      background-size: cover;
 }
 
@@ -60,7 +59,7 @@ nav a:hover,
 nav a:active {
     background-color: rgba(255, 255, 255, 0);
     text-decoration: none;
-    color:#635e5e;
+    color:#ffffff;
 }
 
 body {
