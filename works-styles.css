@@ -102,7 +102,7 @@ h1 {
 }
 
 h2 {
-    text-align: left;
+    text-align: center;
     font-size: 20px;
     font-family: "Olympic Headline Condensed", Helvetica, sans-serif;
     font-weight: bold;
@@ -111,14 +111,14 @@ h2 {
     letter-spacing: .1px;
     word-spacing: 0em;
     margin: 20px 100px 20px 100px;
-    position: 266px;
-    margin-right: 680px;
-    margin-left: 330px;
+    position: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
     margin-top: 100px;
 }
 
 h3 {
-    text-align: left;
+    text-align: center;
     font-size: 20px;
     font-family: "Olympic Headline Condensed", Helvetica, sans-serif;
     font-weight: bold;
@@ -127,16 +127,16 @@ h3 {
     letter-spacing: .1px;
     word-spacing: 0em;
     margin: 20px 100px 20px 100px;
-    position: 266px;
-    margin-right: 680px;
-    margin-left: 330px;
+    position: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
     margin-top: 20px;
 }
 
 
 
 h4 {
-    text-align: left;
+    text-align: center;
     font-size: 20px;
     font-family: "Olympic Headline Condensed", Helvetica, sans-serif;
     font-weight: bold;
@@ -145,14 +145,14 @@ h4 {
     letter-spacing: .1px;
     word-spacing: 0em;
     margin: 20px 100px 20px 100px;
-    position: 266px;
-    margin-right: 680px;
-    margin-left: 330px;
+    position: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
     margin-top: 20px;
 }
 
 h5 {
-    text-align: left;
+    text-align: center;
     font-size: 20px;
     font-family: "Olympic Headline Condensed", Helvetica, sans-serif;
     font-weight: bold;
@@ -161,9 +161,9 @@ h5 {
     letter-spacing: .1px;
     word-spacing: 0em;
     margin: 20px 100px 20px 100px;
-    position: 266px;
-    margin-right: 680px;
-    margin-left: 330px;
+    position: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
     margin-top: 20px;
 }
 
