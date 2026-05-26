@@ -49,9 +49,9 @@ nav a {
     background-color: #ffffff00;
                 font-family: "Poppins", Sans-serif;
                 font-size: 14px;
-                font-weight: 300;
+                font-weight: 0;
                 text-transform: uppercase;
-                font-style: normal;
+                font-style: bold;
                 text-decoration: none;
                 line-height: 1.3em;
                 letter-spacing: 1.53px;
@@ -59,7 +59,6 @@ nav a {
                 color: #ffffff;
                 padding: 15px 20px 15px 20px;
                 }   
-
 
 nav a:link, 
 nav a:visited {

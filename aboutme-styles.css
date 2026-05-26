@@ -1,10 +1,14 @@
-
-
 html {
     box-sizing: border-box;
     font: 400 14px 'Poppins', sans-serif, 'Times New Roman', Times, serif;
 }
+/* Styles for desktop by default */
+.container { display: flex; }
 
+/* Styles for mobile (screens 600px or smaller) */
+@media (max-width: 600px) {
+  .container { flex-direction: column; }
+}
 *, 
 * ::before
 * ::after {
@@ -45,9 +49,9 @@ nav a {
     background-color: #ffffff00;
                 font-family: "Poppins", Sans-serif;
                 font-size: 14px;
-                font-weight: 300;
+                font-weight: 0;
                 text-transform: uppercase;
-                font-style: normal;
+                font-style: bold;
                 text-decoration: none;
                 line-height: 1.3em;
                 letter-spacing: 1.53px;
