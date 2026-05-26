@@ -22,6 +22,7 @@ body {
     padding: 0;
     background: linear-gradient(215deg, rgb(31, 41, 99) 0%, rgb(91, 104, 66) 100%);
     background-size: cover;
+    background-attachment: inherit;
 }
 
 nav ul {
