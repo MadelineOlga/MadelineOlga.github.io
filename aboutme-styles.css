@@ -9,16 +9,23 @@ html {
 * ::before
 * ::after {
     box-sizing: inherit ;
-    
 }
 
 nav {
-    background-color: rgb(215, 215, 215);
     margin: 0 auto 3px;
     padding: .5px;
     width: 100%;
     text-align: center;
      background-size: cover;
+     background: linear-gradient(215deg, rgb(31, 41, 99) 0%, rgb(91, 104, 66) 100%);
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+   
+    background-size: cover;
 }
 
 nav ul {
@@ -45,14 +52,14 @@ nav a {
                 line-height: 1.3em;
                 letter-spacing: 1.53px;
                 fill: #00000000;
-                color: #5a2d2d;
+                color: #ffffff;
                 padding: 15px 20px 15px 20px;
                 }   
 
 
 nav a:link, 
 nav a:visited {
-    color:#000000;
+    color:#ffffff;
     text-decoration: none;
 }
 

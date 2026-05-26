@@ -10,12 +10,20 @@ html {
 }
 
 nav {
-   background-color: rgb(215, 215, 215);
     margin: 0 auto 3px;
     padding: .5px;
     width: 100%;
     text-align: center;
      background-size: cover;
+     background: linear-gradient(215deg, rgb(31, 41, 99) 0%, rgb(91, 104, 66) 100%);
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    
+    background-size: cover;
 }
 
 nav ul {
@@ -42,14 +50,14 @@ nav a {
                 line-height: 1.3em;
                 letter-spacing: 1.53px;
                 fill: #00000000;
-                color: #5a2d2d;
+                color: #ffffff;
                 padding: 15px 20px 15px 20px;
                 }   
 
 
 nav a:link, 
 nav a:visited {
-    color:#000000;
+    color:#ffffff;
     text-decoration: none;
 }
 
@@ -66,119 +74,48 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
 h1 {
     text-align: justify;
     font-size: 0px;
-    font:15px 'Poppins', sans-serif, 'Times New Roman', Times, serif;
+    font:20px 'Poppins', sans-serif, 'Times New Roman', Times, serif;
     font-weight:bold;
     text-transform: none;
-    line-height: 1.8em;
-    letter-spacing: .5px;
-    word-spacing: 0em;
-    color: rgb(0, 0, 0);
+    text-align: justify;
+    font-weight:bold;
+    text-transform: none;
+    text-align: center;
     margin: 20px 100px 20px 100px;
-    position: 26px;
-    margin-right: 60px;
-    margin-left: 810px;
-    margin-top: 50px;
-    margin-bottom:0;
+    position: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 200px;
+
+
 }
 
 h2 {
    text-align: justify;
-    font-size: 20px;
-    font: 400 14px 'Poppins', sans-serif, 'Times New Roman', Times, serif;
-    font-weight:normal;
-    text-transform: none;
-    line-height: 1.8em;
-    letter-spacing: .5px;
-    word-spacing: 0em;
-    color: rgb(0, 0, 0);
-    position: 26px;
-     margin-right: 60px;
-    margin-left: 809px;
-    margin-top: 1px;
-}
-
-h3 {
-    text-align: left;
-    font:20px 'Poppins', sans-serif, 'Times New Roman', Times, serif;
-    font-weight:bold;
-    text-transform: uppercase;
-    line-height: 1.8em;
-    letter-spacing: .5px;
-    word-spacing: 0em;
-    color: rgb(0, 0, 0);
-    margin: 20px 100px 20px 100px;
-    position: 26px;
-    margin-right: 60px;
-    margin-left: 430px;
-    margin-top: 100px;
-}
-
-h4 {
-     text-align: left;
     font-size: 0px;
     font:15px 'Poppins', sans-serif, 'Times New Roman', Times, serif;
     font-weight:bold;
-    text-transform: uppercase;
-    line-height: 1.8em;
-    letter-spacing: .5px;
-    word-spacing: 0em;
-    color: rgb(0, 0, 0);
-    margin: 20px 100px 20px 100px;
-    position: 26px;
-    margin-right: 60px;
-    margin-left: 430px;
-    margin-top: 10px;
+    text-transform: none;
+    text-align: center;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
 }
 
-h5 {
+h3 {
+    text-align: justify;
+    color: #ffffff00;
+    font-size: 0px;
+    font:20px 'Poppins', sans-serif, 'Times New Roman', Times, serif;
+    font-weight:bold;
+    text-transform: none;
     text-align: center;
-    font-size: 20px;
-    font-family: "Olympic Headline Condensed", Helvetica, sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 1.4em;
-    letter-spacing: .1px;
-    word-spacing: 0em;
-    margin: 20px 100px 20px 100px;
-    position: 0px;
     margin-right: 0px;
     margin-left: 0px;
-    margin-top: 20px;
-}
-
-h6 {
-    text-align: center;
-    font-size: 20px;
-    font-family: "Olympic Headline Condensed", Helvetica, sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 1.4em;
-    letter-spacing: .1px;
-    word-spacing: 0em;
-    margin: 20px 100px 20px 100px;
-    position: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-top: 20px;
-}
-h6 {
-    text-align: center;
-    font-size: 20px;
-    font-family: "Olympic Headline Condensed", Helvetica, sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 1.4em;
-    letter-spacing: .1px;
-    word-spacing: 0em;
-    margin: 20px 100px 20px 100px;
-    position: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 footer {
@@ -208,4 +145,3 @@ footer {
     text-align: center;
     margin-top: 130px;
 }
-
