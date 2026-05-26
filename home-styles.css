@@ -89,7 +89,7 @@ img {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(4, 2fr);
-    width: 110px;
+    width: 30px;
     height: 680px;
     margin: center;
     grid-column-gap: 70px; 
@@ -97,7 +97,7 @@ img {
     align-items: flex-start;
     align-items: center;
     justify-items: center;
-    margin: 10px;
+    margin: 100px;
     margin-left: 500px;
     margin-bottom: -300px;
 
